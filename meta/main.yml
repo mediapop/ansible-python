@@ -1,0 +1,13 @@
+---
+galaxy_info:
+  author: Media Pop
+  description: Installs alternative python versions.
+  company: Media Pop
+  license: MIT
+  min_ansible_version: 2.4
+  platforms:
+  - name: Ubuntu
+    versions:
+    - all
+  categories:
+    - system
