@@ -1,6 +1,6 @@
 # Ansible Python
 
-*Created by [Media Pop](https://www.mediapop.co), a software consultancy, reach out to solve your DevOps challenges.*
+*This ansible role is created and maintained by [Media Pop](https://www.mediapop.co), a software consultancy. Hire us to resolve your DevOps challenges.*
 
 [![Travis](https://travis-ci.org/mediapop/ansible-python.svg?branch=master)](https://travis-ci.org/mediapop/ansible-python)
 
