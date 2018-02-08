@@ -18,3 +18,8 @@
 - name: "Setup python"
   become: yes
   shell: "update-alternatives --config python3"
+
+# This will install python 3.5, but it will also setup the system environment properly for pip3.
+- name: "Setup pip3"
+  apt:
+    name: "python3-pip"
