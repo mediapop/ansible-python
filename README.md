@@ -19,3 +19,7 @@ python_alternative_version: "3.6"
   roles:
     - role: mediapop.python
 ```
+
+## No module named apt_pkg
+
+You can't use these alternative pythons with ansible always because it uses a package provided by `python3-apt`. [Set the ansible runtime python](http://docs.ansible.com/ansible/latest/python_3_support.html) with `ansible_python_interpreter: /usr/bin/python3.5` in the inventory or the playbook.
