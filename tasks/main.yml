@@ -27,5 +27,6 @@
 - name: "Make sure we are on the latest version of pip"
   pip:
     name: "pip"
-    state: latest
+    state: "present"
+    version: "{{python_pip_version}}"
     executable: "pip3"
