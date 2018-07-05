@@ -11,10 +11,6 @@ env:
       version: xenial
     - distribution: ubuntu
       version: trusty
-    - distribution: ubuntu
-      version: artful
-    - distribution: ubuntu
-      version: bionic
 
 before_install:
   - 'sudo docker pull ${distribution}:${version}'
