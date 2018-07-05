@@ -9,7 +9,7 @@
 - name: "Install alternative python"
   become: yes
   apt:
-    name: "python3.6"
+    name: "python{{python_alternative_version}}"
 
 - name: "Update alternatives"
   become: yes
