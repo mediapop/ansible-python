@@ -9,6 +9,10 @@ env:
     - ANSIBLE_ROLE: python
   matrix:
     - distribution: ubuntu
+      version: focal
+    - distribution: ubuntu
+      version: bionic
+    - distribution: ubuntu
       version: xenial
     - distribution: ubuntu
       version: trusty
