@@ -1,12 +1,4 @@
 ---
-
-# This PPA has been removed from public
-# - name: "Add the apt-repo with later version of python"
-#   become: yes
-#   apt_repository:
-#     repo: "ppa:jonathonf/python-{{python_alternative_version}}"
-#     update_cache: yes
-
 - name: "Add the apt-repo with later version of python"
   become: yes
   apt_repository:
