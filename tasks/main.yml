@@ -23,7 +23,7 @@
   apt:
     name: "python3-pip"
 
-- name: "Make sure we are on the latest version of pip"
+- name: "Make sure we are on the specified version of pip"
   pip:
     name: "pip"
     state: "present"
