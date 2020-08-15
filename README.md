@@ -3,6 +3,7 @@
 *This ansible role is created and maintained by [Media Pop](https://www.mediapop.co), a software consultancy. Hire us to resolve your DevOps challenges.*
 
 [![Travis](https://travis-ci.org/mediapop/ansible-python.svg?branch=master)](https://travis-ci.org/mediapop/ansible-python)
+[![Ansible Galaxy](https://img.shields.io/badge/ansible-mediapop.python-green)](https://galaxy.ansible.com/mediapop/python)
 
 Install other versions of python and set them as the default.
 
