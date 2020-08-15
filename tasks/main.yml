@@ -5,9 +5,6 @@
     repo: "ppa:deadsnakes/ppa"
     update_cache: yes
 
-- name: manual apt update
-  shell: apt update --yes --force-yes && apt upgrade --yes --force-yes
-
 - name: "Install alternative python"
   become: yes
   apt:
