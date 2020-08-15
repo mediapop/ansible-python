@@ -8,14 +8,14 @@
 - name: "Install alternative python"
   become: yes
   apt:
-    name: "python{{python_alternative_version}}"
+    name: "python{{ python_alternative_version }}"
 
 - name: "Update alternatives"
   become: yes
   alternatives:
     name: "python3"
     link: "/usr/bin/python3"
-    path: "/usr/bin/python{{python_alternative_version}}"
+    path: "/usr/bin/python{{ python_alternative_version }}"
     priority: 2
 
 # This will install python 3.5, but it will also setup the system environment properly for pip3.
@@ -27,5 +27,5 @@
   pip:
     name: "pip"
     state: "present"
-    version: "{{python_pip_version}}"
+    version: "{{ python_pip_version }}"
     executable: "pip3"
