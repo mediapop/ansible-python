@@ -10,7 +10,7 @@ Install other versions of python and set them as the default.
 
 ```yml
 python_alternative_version: "3.6"
-python_pip_version: "10.0.1"
+python_pip_version: "20.2.2"
 ```
 
 ## Example Playbook
